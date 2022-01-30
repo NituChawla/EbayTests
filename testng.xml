@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="shopping.Shopping.LoginPage"/>
+       </classes>
+       </test>
+       <test thread-count="5" name="Test2">
+    <classes>
+        <class name="shopping.Shopping.LoginPageDataProvider"/>
+    </classes>
+       </test>
+         <test thread-count="5" name="Test3">
+    <classes>
+  
+      <class name="shopping.Shopping.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

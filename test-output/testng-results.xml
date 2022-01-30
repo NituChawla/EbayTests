@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-30T15:26:45 AEDT" name="Default suite" finished-at="2022-01-30T15:27:39 AEDT" duration-ms="53661">
+    <groups>
+    </groups>
+    <test started-at="2022-01-30T15:26:45 AEDT" name="Default test" finished-at="2022-01-30T15:27:39 AEDT" duration-ms="53661">
+      <class name="shopping.Shopping.EbayTestScripts">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:shopping.Shopping.EbayTestScripts@45ca843]" started-at="2022-01-30T15:26:45 AEDT" name="openURL" finished-at="2022-01-30T15:26:51 AEDT" duration-ms="6249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="login()[pri:0, instance:shopping.Shopping.EbayTestScripts@45ca843]" started-at="2022-01-30T15:26:51 AEDT" name="login" finished-at="2022-01-30T15:27:28 AEDT" duration-ms="36453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login1()[pri:0, instance:shopping.Shopping.EbayTestScripts@45ca843]" started-at="2022-01-30T15:27:28 AEDT" name="login1" finished-at="2022-01-30T15:27:37 AEDT" duration-ms="9470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="closeURL()[pri:0, instance:shopping.Shopping.EbayTestScripts@45ca843]" started-at="2022-01-30T15:27:37 AEDT" name="closeURL" finished-at="2022-01-30T15:27:39 AEDT" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- shopping.Shopping.EbayTestScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

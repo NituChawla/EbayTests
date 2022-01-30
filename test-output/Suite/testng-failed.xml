@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="shopping.Shopping.LoginPageDataProvider">
+        <methods>
+          <include name="closeURL"/>
+          <include name="openURL"/>
+          <include name="login" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- shopping.Shopping.LoginPageDataProvider -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
